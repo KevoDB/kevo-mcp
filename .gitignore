@@ -1,0 +1,5 @@
+__pycache__
+dist
+.python-version
+
+**/.claude/settings.local.json

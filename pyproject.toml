@@ -1,0 +1,14 @@
+[project]
+name = "kevo-mcp"
+version = "0.1.0"
+description = "An MCP server giving you access to your data in Kevo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.3.4",
+    "pydantic>=2.0.0",
+    "python-kevo",
+]
+
+[tool.uv.sources]
+python-kevo = { path = "../python-sdk" }
